@@ -9,7 +9,7 @@ function FolderItem(){
     ]
 
     function handleExpansion(){
-        setIsExpanded(!setIsExpanded)
+        setIsExpanded(!isExpanded)
         if(isExpanded){
         console.log("Folder jest rozwinięty")
         } else{

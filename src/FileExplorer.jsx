@@ -2,7 +2,7 @@ import FileItem from "./fileItem";
 import FolderItem from "./FolderItem";
 import "./FileExplorer.css"
 
-function FileExplorer() {
+function FileExplorer({fileSystem}) {
     return (
         <>
             <FolderItem/>
