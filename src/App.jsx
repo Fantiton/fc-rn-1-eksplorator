@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import 
+import "./FileItem"
+import "./FolderItem"
 import './App.css'
 
 function App() {
@@ -9,7 +10,10 @@ function App() {
 
   return (
     <>
-      
+      <FolderItem/>
+      <FileItem/>
+      <FileItem/>
+      <FileItem/>
     </>
   )
 }
