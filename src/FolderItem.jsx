@@ -28,8 +28,8 @@ function FolderItem(){
             </div>
             <div className="folder-content">
                 {isExpanded && files.map(
-                    (file) => (
-                        <FileItem key={file.id} name={file.name} type={file.type} size={file.size} sizeUnit={file.sizeUnit}/>
+                    (node) => (
+                        <FileTree fileSystem={node.children}/>    
                     )
                 )}
             </div>
